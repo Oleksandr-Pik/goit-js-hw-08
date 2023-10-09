@@ -48,5 +48,7 @@ function onSubmit(evt) {
     console.log(form);
     formEl.reset();
     localStorage.clear();
+    form.email = '';
+    form.message = '';
   }
 }
